@@ -46,10 +46,7 @@ function QHeader() {
   return (
     <div className="qHeader">
       <div className="qHeader__logo">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Quora_logo_2015.svg/250px-Quora_logo_2015.svg.png"
-          alt=""
-        />
+       <h1 >CRAT</h1>
       </div>
       <div className="qHeader__icons">
         <div className="active qHeader__icon">
@@ -58,9 +55,7 @@ function QHeader() {
         <div className="qHeader__icon">
           <FeaturedPlayListOutlinedIcon />
         </div>
-        <div className="qHeader__icon">
-          <AssignmentTurnedInOutlinedIcon />
-        </div>
+       
         <div className="qHeader__icon">
           <PeopleAltOutlinedIcon />
         </div>
@@ -70,7 +65,7 @@ function QHeader() {
       </div>
       <div className="qHeader__input">
         <SearchIcon />
-        <input type="text" placeholder="Search Quora" />
+        <input type="text" placeholder="Search for queries" />
       </div>
       <div className="qHeader__Rem">
         <div className="qHeader__avatar">
@@ -85,7 +80,7 @@ function QHeader() {
           />
         </div>
         <LanguageIcon />
-        <Button onClick={() => setIsModalOpen(true)}>Add Question</Button>
+        <Button onClick={() => setIsModalOpen(true)}>Add Query</Button>
         <Modal
           isOpen={IsmodalOpen}
           onRequestClose={() => setIsModalOpen(false)}
@@ -128,7 +123,7 @@ function QHeader() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               type="text"
-              placeholder="Start your question with 'What', 'How', 'Why', etc. "
+              placeholder="ask your doubts "
             />
             <div className="modal__fieldLink">
               <Link />

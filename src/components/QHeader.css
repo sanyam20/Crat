@@ -24,7 +24,7 @@
 }
 
 .qHeader__icons > .active > .MuiSvgIcon-root {
-  fill: #8f1f1b;
+  fill: var(--color-site);
 }
 
 .qHeader__icon > .MuiSvgIcon-root {
@@ -37,7 +37,7 @@
 .qHeader__icon > .MuiSvgIcon-root:hover {
   background-color: rgba(233, 233, 233, 0.5);
   border-radius: 10px;
-  color: #b92b27;
+  color: var(--color-site);
 }
 
 .qHeader__input {
@@ -76,12 +76,12 @@
   cursor: pointer;
 }
 .qHeader__Rem > .MuiSvgIcon-root:hover {
-  color: #b92b27;
+  color: var(--color-site);
 }
 
 .qHeader__Rem > .MuiButton-root {
   color: white;
-  background: #b92b27;
+  background: var(--color-site);
   text-transform: inherit;
   border-radius: 20px;
   margin-left: 25px;
@@ -89,7 +89,7 @@
 
 .qHeader__Rem > .MuiButton-root:hover {
   color: #ffffff;
-  background: #8f1f1b;
+  background: var(--color-site);
 }
 
 .modal__title {
@@ -108,7 +108,7 @@
 }
 
 .modal__title > h5:hover {
-  color: #b92b27;
+  color: var(--color-site);
 }
 
 .modal__info {

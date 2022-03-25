@@ -40,17 +40,14 @@ function Login() {
     <div className="login">
       <div className="login__container">
         <div className="login__logo">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Quora_logo_2015.svg/250px-Quora_logo_2015.svg.png"
-            alt=""
-          />
+         <h1 style={{ color: "black", fontSize: "35px" }}>CRAT</h1>
         </div>
         <div className="login__desc">
-          <p>A Place to Share knowledge and better understand the world</p>
+          <p style={{  fontSize: "40px" }}>Computer research and training</p>
           <p style={{ color: "royalblue", fontSize: "25px" }}>
-            HandCrafted with ❤️ by{" "}
+           A place for all your doubts{" "}
           </p>
-          <h3>Code With Akky</h3>
+         
         </div>
         <div className="login__auth">
           <div className="login__authOptions">
